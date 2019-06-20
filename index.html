@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="story.css">
+            
+        </head>
+<body>
+
+<h2>Random Story Generator</h2>
+<div class="button1">
+        
+        <button id="plustext" alt="Increase text size" onclick="resizeText(1)">A+</button> 
+        <button id="minustext" alt="Decrease text size" onclick="resizeText(-1)">A-</button> 
+        </div>
+
+<div class="story" id="story">
+<p><span id="paragraphOne"></span> <span id="paragraphTwo"></span></p>
+<p id="paragraphThree"></p>
+<p id="paragraphFour"></p>
+<p id="paragraphFive"></p>
+</div>
+
+<div class="button1">
+<button onclick="location.reload();">Tell me another story</button>
+</div>
+ <script src="app.js"></script> 
+</body>
+</html> 
+
