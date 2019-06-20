@@ -33,6 +33,7 @@ var names = {
   Gianna: "Gianna",
   Eliana: "Eliana",
   Josephine: "Josephine",
+  Lydia: "Lydia"
 
 };
 
