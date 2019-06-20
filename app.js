@@ -19,7 +19,6 @@ var names = {
   Abigail: "Abigail",
   Emily: "Emily",
   Elizabeth: "Elizabeth",
-  Mila: "Mila",
   Ella: "Ella",
   Avery: "Avery",
   Sofia: "Sofia",
