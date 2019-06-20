@@ -40,20 +40,20 @@ var names = {
 var herName = randomProperty(names);
 
 var paragraphOne = {
-    One: 'As a child, I was always restless. I never liked being told what to do and tried to defy the norm even if it brought me harm.',
-    Two: "My mother told me I never gave her an trouble as a child. I do not have much evidence to back this up as I do not remember much of my early years. It was a queit and peaceful time for all I can recall.",
-    Three: "I don't remember much of my childhood apart from the fact that I lived in an area well endowed with trees. The most vivid memory I have seems to be of me running around in an apple orchard.",
-    Four: "As I grow older I seem to remember my childhood even more vividly. it comes to me in distinct images and scenes. One of the sharpest memories seems to be of me reciting a poem at school. It's wonderous how such a seemingly insignificant detail could leave such a deep impression on the mind. I digress. My childood was a peaceful one.",
-    Five: "My childhood wasn't ideal by any definition. One of my earliest memories seems to be mother quarelling with father. No matter how hard I try to overwrite that one memory with happy times, I can not."
+  One: 'As a child, I was always restless. I never liked being told what to do and tried to defy the norm even if it brought me harm. ',
+  Two: "My mother told me I never gave her an trouble as a child. I do not have evidence to back this up as I do not remember much of my early years. It was a quiet and peaceful time for all I can recall. ",
+  Three: "I don't remember much of my childhood apart from the fact that I lived in an area well endowed with trees. The most vivid memory I have seems to be of me running around in an apple orchard. ",
+  Four: "As I grow older I seem to remember my childhood even more vividly. It comes to me in distinct images and scenes. One of the sharpest memories seems to be of me reciting a poem at school. It's wonderous how such a seemingly insignificant detail could leave such a deep impression on the mind. I digress. My childood was a peaceful one. ",
+  Five: "My childhood wasn't ideal by any definition. One of my earliest memories seems to be mother quarelling with father. No matter how hard I try to overwrite that one memory with happy times, I can not. "
 
-  };
+};
 
 var paragraphTwo = {
-    One: 'I grew up to be mostly introverted. Most of my time was spent reading or solving puzzles. This did not do wonders for my social life.',
-    Two: 'Growing up was not easy. Hard times were upon us. Even living hand to mouth was a struggle. Polishing the boots of those that look down on you and yet look for perfection in such menial work is one of the mem ories I definitely do not want to revisit. Yet I never did complain.',
-    Three: "I remember being in isolation most of my time growing up. I didn't like to interact with people. The collection of insects I had wasn't a conversation starter, to put it mildly. Being the 'weird kid' did not really do wonders for my confidence.",
-    Four: "As years passed I made academics my prime focus in life. I was more career oriented than most kids my age. I found myself buried more in the company of books and less in the company of men.",
-    Five: "Growing up was uneventful. I got along fine with people my age and never had problem making friends. I did not have a lot of them but I was never in a lack of company either.",
+  One: "I grew up to be introverted. Most of my time was spent reading or solving puzzles. This did not do wonders for my social life.",
+  Two: 'Growing up was not easy. Hard times were upon us. Even living hand to mouth was a struggle. Polishing the boots of those that look down on you and yet look for perfection in such menial work is one of the memories I definitely do not want to revisit. Yet I never did complain.',
+  Three: "I remember being in isolation most of my time growing up. I didn't like to interact with people. The collection of insects I had wasn't a conversation starter, to put it mildly. Being the 'weird kid' did not really do wonders for my confidence.",
+  Four: "As years passed I made academics my prime focus in life. I was more career oriented than most kids my age. I found myself buried more in the company of books and less in the company of men.",
+  Five: "Growing up was uneventful. I got along fine with people my age and never had problem making friends. I did not have a lot of them but was never in a lack of company either.",
 };
 
 var paragraphThree = {
