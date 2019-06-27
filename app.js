@@ -19,6 +19,7 @@ var names = {
   Abigail: "Abigail",
   Emily: "Emily",
   Elizabeth: "Elizabeth",
+  Mila: "Mila",
   Ella: "Ella",
   Avery: "Avery",
   Sofia: "Sofia",
@@ -34,7 +35,7 @@ var names = {
   Eliana: "Eliana",
   Josephine: "Josephine",
   Lydia: "Lydia"
-
+  
 };
 
 var herName = randomProperty(names);
@@ -90,16 +91,23 @@ var image = {
     Seven: "url('back7.jpg')",
     Eight: "url('back8.jpg')",
     Nine: "url('darkwood2.jpg')"
+   
 }
 
+var firstPara= randomProperty(paragraphOne);
+var secondPara= randomProperty(paragraphTwo);
+var thirdPara= randomProperty(paragraphThree);
+var forthPara= randomProperty(paragraphFour);
+var fifthPara= randomProperty(paragraphFive);
 
-
-document.getElementById("paragraphOne").innerHTML = randomProperty(paragraphOne);
-document.getElementById("paragraphTwo").innerHTML = randomProperty(paragraphTwo);
-document.getElementById("paragraphThree").innerHTML = randomProperty(paragraphThree);
-document.getElementById("paragraphFour").innerHTML = randomProperty(paragraphFour);
-document.getElementById("paragraphFive").innerHTML = randomProperty(paragraphFive);
+document.getElementById("paragraphOne").innerHTML = firstPara;
+document.getElementById("paragraphTwo").innerHTML = secondPara;
+document.getElementById("paragraphThree").innerHTML = thirdPara;
+document.getElementById("paragraphFour").innerHTML = forthPara;
+document.getElementById("paragraphFive").innerHTML = fifthPara;
 document.body.style.background=randomProperty(image);
+
+var myStory = firstPara+"\r\n\r\n"+secondPara+"\r\n\r\n"+thirdPara+"\r\n\r\n"+forthPara+"\r\n\r\n"+fifthPara+"\r\n"+"\r\n"+"\r\n"+"From  https://brave-wilson-355dfd.netlify.com/"+"\r\n"+"A project by Karan Bhatt";
 
 function resizeText(multiplier) {
     if (document.getElementById("story").style.fontSize == "") {
@@ -107,3 +115,30 @@ function resizeText(multiplier) {
     }
     document.getElementById("story").style.fontSize = parseFloat(document.getElementById("story").style.fontSize) + (multiplier * 0.1) + "em";
   }
+
+
+  
+document.getElementById('myButton').onclick = function(event){
+
+  var title = prompt("Enter a title for your story");
+  if (title!==null & title!=="")
+{
+  myStory=title+"\r\n\r\n\r\n"+myStory;
+}
+  blob = new Blob([myStory], {type: "text/plain"}),
+  url = window.URL.createObjectURL(blob);
+
+  this.href = url;
+  this.target = '_blank';
+  
+  // target filename
+  if (title==null || title==""){
+  this.download = 'my-download.txt';
+  }
+  else 
+  {
+    this.download = title+'.txt';
+  }
+
+}
+
